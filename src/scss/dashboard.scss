@@ -30,24 +30,23 @@
     border-radius: 4px;
     border: 1px solid #dadce0;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     font-size: 1.5rem;
     text-decoration: none;
-    color: black;
+    color: #000;
     text-align: center;
 
     &:hover {
       cursor: pointer;
-      color: blue;
-      border-color: blue;
+      color: green;
+      border-color: green;
     }
   }
 
   &__view {
     max-width: 1000px;
-    margin:0 auto;
-
+    margin: 0 auto;
   }
 
   &__table {
@@ -66,7 +65,6 @@
 
   &__list {
     @include clear-list;
-
   }
 
   &__record {
