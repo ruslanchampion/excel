@@ -1,0 +1,19 @@
+.footer_rss {
+  position:fixed;
+  left:40%;
+  bottom:0px;
+  height:45px;
+  width:100%;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.footer_rss::before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: -110px;
+  width: 100px;
+  height: 100px;
+  background-image: url('https://rs.school/images/rs_school_js.svg');
+  background-size: 100px 100px;
+}

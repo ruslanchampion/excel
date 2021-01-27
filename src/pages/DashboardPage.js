@@ -21,6 +21,12 @@ export class DashboardPage extends Page {
       <div class="db__table db__view">
         ${createRecordsTable()}
       </div>
+
+      <div class="footer_rss">
+      <p>Автор проекта: Руслан Тимбаков</p>
+      <p>GitHub: <a href="https://github.com/ruslanchampion" target="_blank">https://github.com/ruslanchampion</a></p>
+      <p>RSS Course : <a href="https://rs.school/js" target="_blank">https://rs.school/js</a></p>
+      </div>
     `)
   }
 }
